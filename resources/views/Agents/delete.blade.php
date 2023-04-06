@@ -9,9 +9,11 @@
     <link rel="stylesheet" href={{asset('/bootstrap5/css/bootstrap.min.css')}}  >
     <script  src={{asset('/bootstrap5/js/bootstrap.min.js')}}> </script> 
      <script src={{asset('/jquery/jqueryDevelopment.js')}} ></script> 
+     <script></script>
 </head>
 <body>
-    
+
+  <script>
     <div id="del">
     <form action="{{ route('delAgent',$record[0]->id) }}" method="get" id="frm">
     <div class="modal-body">
